@@ -67,7 +67,7 @@
         <hr class="star-light">
         <h2 class="font-weight-light mb-0">Having Trouble Completing Your Engineering Project
           <br>We are the solution you need.
-          <br><br><strong>Get Your Personal Consultancy Service for Your Project</strong></h2>
+          <br><br><strong>Get Personal Consultancy Service for Your Project</strong></h2>
       </div>
     </header>
 
@@ -172,7 +172,7 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+            <form name="sentMessage" action="mail/test.php" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group controls mb-0 pb-2">
                   <label><strong>Name:</strong></label>
@@ -212,55 +212,39 @@
               <div class="control-group">
                 <div class="form-group controls mb-0 pb-2">
                   <label><strong>Year:</strong></label>
-                  <br>
-                  <input type="radio" name="year" id="radio1" class="radio" checked/>
-                  <label class="radio_label" for="radio1">2nd Year</label>
-                  <br>
-                  <input type="radio" name="year" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">3rd Year</label>
-                  <br> 
-                  <input type="radio" name="year" id="radio3" class="radio"/>
-                  <label class="radio_label" for="radio3">4th Year</label>
+                  <select class="form-control" id="year" placeholder="Year" required="required" data-validation-required-message="Please enter your Year of Engg..">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="2nd Year">2nd Year</option>
+                    <option value="3rd Year">3rd Year</option>
+                    <option value="4th Year">4th Year</option>
+                  </select> 
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group controls mb-0 pb-2">
                   <label><strong>Project Type:</strong></label>
-                  <br>
-                  <input type="radio" name="type" id="radio1" class="radio" checked/>
-                  <label class="radio_label" for="radio1">Mini Project</label>
-                  <br>
-                  <input type="radio" name="type" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Major Project</label>
+                  <select class="form-control" id="type" placeholder="Project Type" required="required" data-validation-required-message="Please enter your type of Project.">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="Mini Project">Mini Project</option>
+                    <option value="Major Project">Major Project</option>
+                  </select> 
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
               <div class="control-group">
                 <div class="form-group controls mb-0 pb-2">
                   <label><strong>Project Category:</strong></label>
-                  <br>
-                  <input type="radio" name="category" id="radio1" class="radio" checked/>
-                  <label class="radio_label" for="radio1">IOT Project</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Networking</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Machine Learning</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Website Development</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Mobile App Development</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Web App Development</label>
-                  <br>
-                  <input type="radio" name="category" id="radio2" class="radio"/>
-                  <label class="radio_label" for="radio2">Electronics Embedded System</label>
-                  
+                  <select class="form-control" id="category" placeholder="Project Category" required="required" data-validation-required-message="Please enter your category of Project.">
+                    <option disabled selected value> -- select an option -- </option>
+                    <option value="IOT Project">IOT Project</option>
+                    <option value="Networking">Networking</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Website Development">Website Development</option>
+                    <option value="Mobile App Development">Mobile App Development</option>
+                    <option value="Web App Development">Web App Development</option>
+                    <option value="Electronics Embedded System">Electronics Embedded System</option>
+                  </select> 
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -268,7 +252,7 @@
               <div class="control-group">
                 <div class="form-group controls mb-0 pb-2">
                   <label><strong>Comments:</strong></label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Comments" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Comments if any." required="required" data-validation-required-message="Please enter a message.">-</textarea>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -296,7 +280,7 @@
           <div class="col-md-4">
             <p class="lead mb-0">Saurabh Shetty
               <br>Mobile: <a href="tel:+91 7875500559">+91 7875500559</a>
-              <br>Email: <a href="mailto:admin@project-guru.ml">saurabh.shetty@gmail.com</a></p>
+              <br>Email: <a href="mailto:saurabh.shetty@gmail.com">saurabh.shetty@gmail.com</a><br><br><br></p>
           </div>
           <div class="col-md-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>

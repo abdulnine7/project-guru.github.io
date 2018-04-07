@@ -11,6 +11,11 @@ $(function() {
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
+      var college = $("input#college").val();
+      var branch = $("input#branch").val();
+      var year = $("select#year").val();
+      var type = $("select#type").val();
+      var category = $("select#category").val();
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
@@ -26,6 +31,11 @@ $(function() {
           name: name,
           phone: phone,
           email: email,
+          college: college,
+          branch: branch,
+          year: year,
+          type: type,
+          category: category,
           message: message
         },
         cache: false,
