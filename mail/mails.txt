@@ -1,0 +1,24 @@
+
+--------------------------09/04/2018 12:35:45 pm--------------------------
+You have received a new message from your website contact form.
+
+Here are the details:
+
+Name: Abdul Sheikh
+
+Email: nav20202@gmail.com
+
+Phone: 9372621285
+
+College: MIT
+
+Branch: COMP
+
+Year: 3rd Year
+
+Type: Major Project
+
+Category: Networking
+
+Message:
+Hi
