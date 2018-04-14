@@ -12,8 +12,7 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var college = $("input#college").val();
-      var branch = $("input#branch").val();
-      var year = $("select#year").val();
+      var prjName = $("input#prjName").val();
       var type = $("select#type").val();
       var category = $("select#category").val();
       var message = $("textarea#message").val();
@@ -32,8 +31,7 @@ $(function() {
           phone: phone,
           email: email,
           college: college,
-          branch: branch,
-          year: year,
+          prjName: prjName,
           type: type,
           category: category,
           message: message

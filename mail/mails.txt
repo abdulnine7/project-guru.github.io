@@ -22,3 +22,47 @@ Category: Networking
 
 Message:
 Hi
+
+--------------------------14/04/2018 07:28:01 am--------------------------
+You have received a new message from your website contact form.
+
+Here are the details:
+
+Name: Testing Website
+
+Email: test@gmail.com
+
+Phone: 987654321
+
+College: mit
+
+Branch: qwerty
+
+Type: Major Project
+
+Category: IOT Project
+
+Message:
+hi
+
+--------------------------14/04/2018 07:36:14 am--------------------------
+You have received a new message from your website contact form.
+
+Here are the details:
+
+Name: Abdul Sheikhq
+
+Email: rahuldirax@gmail.com
+
+Phone: 9372621285
+
+College/Organization: Texephyr
+
+Project Name: Registration Portal
+
+Type: Major Project
+
+Category: Web App Development
+
+Message:
+Registerations on mobile
